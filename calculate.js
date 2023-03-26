@@ -15,7 +15,6 @@ let num2 = await inquirer.prompt({
 // Getting  Operators
 let operator = await inquirer.prompt({
     name: 'ope',
-    type: 'string',
     message: 'Operator'
 });
 // in case of Addition of two number it will concat by default . Because by default input value type is string

@@ -23,7 +23,6 @@ let num2 = await inquirer.prompt(
 let operator = await inquirer.prompt(
     {
         name:'ope',
-        type:'string',
         message:'Operator'
     }
 )
